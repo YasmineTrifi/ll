@@ -9,7 +9,7 @@ class Item(BaseModel):
 
 app = FastAPI()
 
-ray.init()
+ray.init(object_store_memory=1000000000)  # Set object store memory to 1GB
 model_path = 'https://drive.google.com/file/d/12gPEPM-a2lzwBSWLbT-wWTjjr_Zd14kK/view?usp=sharing'  # replace with the path to your local model file
 
 @ray.remote
