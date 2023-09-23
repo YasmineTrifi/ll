@@ -10,7 +10,7 @@ class Item(BaseModel):
 app = FastAPI()
 
 ray.init()
-model_path = 'C:/Users/Yasmine/Desktop/demo_app1/trained_model.pth'  # replace with the path to your local model file
+model_path = 'https://drive.google.com/file/d/12gPEPM-a2lzwBSWLbT-wWTjjr_Zd14kK/view?usp=sharing'  # replace with the path to your local model file
 
 @ray.remote
 def load_model(model_path):
