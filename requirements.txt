@@ -53,7 +53,7 @@ sympy==1.10.1
 tokenizers==0.13.3
 torch==1.13.1
 tqdm==4.66.1
-transformers==4.33.2
+transformers==4.30.2
 typing_extensions==4.8.0
 tzdata==2023.3
 ujson==5.8.0
